@@ -4,4 +4,4 @@ from django.urls import reverse
 # Create your views here.
 
 def index(request):
-    pass
+    return render(request,"home/index.html")
